@@ -111,8 +111,8 @@ def play_game(game, x_player, o_player, print_game=True):
 
 
 if __name__ == '__main__':
-    x_player = Humanplayer('X')
-    o_player = SmartComputer('O')
+    x_player = SmartComputer('X')
+    o_player = Humanplayer('O')
     t = TicTacTo()
 
     play_game(t, x_player, o_player, print_game=True)
